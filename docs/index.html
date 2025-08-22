@@ -15,13 +15,14 @@
       body {
         font-family: "Inter", sans-serif;
       }
-      .hero-gradient {
-        background: radial-gradient(
-            circle at 50% 0%,
-            rgba(30, 41, 59, 0.5) 0%,
-            rgba(17, 24, 39, 0) 50%
+      .hero-background {
+        background-image: linear-gradient(
+            rgba(17, 24, 39, 0.75),
+            rgba(17, 24, 39, 0.75)
           ),
-          #111827;
+          url("https://cdn.pixabay.com/photo/2016/07/02/19/09/nude-1493585_1280.jpg");
+        background-size: cover;
+        background-position: center;
       }
       .feature-card {
         background: rgba(31, 41, 55, 0.5);
@@ -91,9 +92,7 @@
 
     <main>
       <!-- Hero Section -->
-      <section
-        class="hero-gradient pt-32 pb-20 md:pt-40 md:pb-24 relative overflow-hidden"
-      >
+      <section class="hero-background pt-32 pb-20 md:pt-40 md:pb-24 relative">
         <div class="container mx-auto px-6 text-center relative z-10">
           <h1
             class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4"
@@ -101,7 +100,7 @@
             Your Gateway to <br class="hidden md:block" />
             Unlimited Entertainment
           </h1>
-          <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+          <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             Discover and stream thousands of movies and TV shows right from your
             Android device. Free, fast, and in high definition.
           </p>
