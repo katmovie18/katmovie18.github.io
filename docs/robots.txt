@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://katmovie18.site/sitemap.xml
+Sitemap: https://katmovie18.github.io/sitemap.xml
