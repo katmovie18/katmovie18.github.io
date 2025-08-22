@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+      The title will be dynamically set by Zola. 
+      It uses the title from your _index.md file in the docs section.
+    -->
+    <title>Katmovie18 App Documentation - KATMOVIE18 Docs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .prose {
+            color: #d1d5db; /* text-gray-300 */
+        }
+        .prose h1, .prose h2, .prose h3 {
+            color: #ffffff; /* text-white */
+        }
+        .prose a {
+            color: #60a5fa; /* text-blue-400 */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <!-- Header -->
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-40 border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4">
+            <nav class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-bold text-white">KATMOVIE<span class="text-blue-500">18</span></a>
+                <div class="flex items-center space-x-8">
+                    <a href="/" class="hover:text-blue-400 transition-colors">Home</a>
+                    <a href="/docs/" class="text-blue-400 font-semibold">Docs</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <div class="max-w-4xl mx-auto">
+            <!-- Page Title and Description -->
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white">Katmovie18 App Documentation</h1>
+                
+                <p class="mt-4 text-lg text-gray-400">We present the documentation for the app here</p>
+                
+            </div>
+
+            <!-- List of Documentation Pages -->
+            <div class="space-y-6">
+                
+                <a href="https://katmovie18.site/docs/installation/" class="block p-6 bg-gray-800/50 border border-gray-700 rounded-lg hover:bg-gray-800 hover:border-blue-500 transition-all duration-300">
+                    <h2 class="text-2xl font-bold text-white">Installation</h2>
+                    
+                    <p class="mt-2 text-gray-400">soemthing here</p>
+                    
+                </a>
+                
+                <a href="https://katmovie18.site/docs/about/" class="block p-6 bg-gray-800/50 border border-gray-700 rounded-lg hover:bg-gray-800 hover:border-blue-500 transition-all duration-300">
+                    <h2 class="text-2xl font-bold text-white">About Katmovie18 application</h2>
+                    
+                    <p class="mt-2 text-gray-400">soemthing here</p>
+                    
+                </a>
+                
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 mt-16">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <p>&copy; 2024 KATMOVIE18. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
